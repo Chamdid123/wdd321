@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0 10px;
+    align-items: end;
+    border-bottom: solid 1px #ddd;
+    column-gap: 8px;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+header span{
+    text-align: center;
+    font-size: 1.3rem;
+    color: #3D405B;
+}
+
+.chamdid{
+    background: none;
+    border: none;
+    color: #3D405B;
+    cursor: pointer;
+
+
+}
+
+.chamdid::before{
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.chamdid.show::before{
+    content: "\00D7";
+}
+
+section{
+    border: solid 1px #3D405B;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.table{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.nitro{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+section img{
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+/******************** Navigation ********************/
+
+.navi{
+    display: none;
+
+}
+.navi.show{
+    display: block;
+}
+.navi ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navi a{
+    display: block;
+    padding: .8rem 10px;
+    color: #3D405B;
+    text-decoration: none;
+    border-bottom: solid 1px #ddd;
+    text-align: center;
+
+}
+.navi li.current{
+    background-color: #ddd;
+}
+.navi a:hover{
+    background: #999cb5;
+}
+
+
+/******************** footer ********************/
+
+footer{
+    background-color: #eee;
+    padding: 1rem 10px;
+    text-align: center;
+}
+.media{
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+
+}
+
+.media a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: #3D405B solid 1px;
+    border-radius: 10px;
+
+}
+.media img{
+    width: 22px;
+    height: 22px;
+}
+
+.media a:hover{
+    background-color: #ddd;
+}

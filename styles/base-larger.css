@@ -1,0 +1,35 @@
+@media screen and (min-width: 38rem) {
+
+    header, main, nav, footer{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    header{
+        grid-template-columns: 24px auto;
+    }
+
+    .chamdid{
+        display: none;
+    }
+
+    .table{
+        display: grid;
+        grid-template-columns: 300px 400px;
+
+    }
+    section{
+        margin: 10px;
+    }
+
+    .navi{
+        display: block;
+        border-bottom: solid 1px #eee;
+        
+    }
+    .navi ul{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
