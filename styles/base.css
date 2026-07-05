@@ -28,6 +28,16 @@ header span{
     font-size: 1.3rem;
     color: #3D405B;
 }
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    background-color: #d2d2d4;
+    font-size: 30px;
+    font-weight: 800;
+}
 
 .chamdid{
     background: none;
@@ -51,7 +61,7 @@ section{
     border: solid 1px #3D405B;
     margin-bottom: 10px;
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 .table{
