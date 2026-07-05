@@ -31,5 +31,9 @@
         display: flex;
         justify-content: center;
     }
+    #courses{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     
 }
