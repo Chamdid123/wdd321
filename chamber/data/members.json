@@ -1,0 +1,65 @@
+[
+    {
+        "name" : "Evergreen",
+        "address":"jinja, uganda",
+        "contact":"+256700359708",
+        "url":"https://evergreen.com",
+        "image":"Evergreen.jpg",
+        "membership level":"5"
+
+    },
+    {
+        "name" : "Toyota",
+        "address":"jinja, uganda",
+        "contact":"+256700359708",
+        "url":"https://toyota.com",
+        "image":"Toyota.jpg",
+        "membership level":"2"
+
+    },
+    {
+        "name" : "Lamborghini",
+        "address":"jinja, uganda",
+        "contact":"+256700359708",
+        "url":"https://lamborghini.com",
+        "image":"pinterest_labo.jpg",
+        "membership level":"2"
+
+    },
+    {
+        "name" : "Energen",
+        "address":"jinja, uganda",
+        "contact":"+256700359708",
+        "url":"https://energen.com",
+        "image":"Tesla_Robot.jpg",
+        "membership level":"4"
+
+    },
+    {
+        "name" : "Tesla",
+        "address":"jinja, uganda",
+        "contact":"+256700359708",
+        "url":"https://tesla.com",
+        "image":"pinterest_tesla.jpg",
+        "membership level":"1"
+
+    },
+    {
+        "name" : "port",
+        "address":"jinja, uganda",
+        "contact":"+256700359708",
+        "url":"https://mombasaport.com",
+        "image":"Supply_Chain_Careers.jpg",
+        "membership level":"2"
+
+    },
+    {
+        "name" : "BMW",
+        "address":"jinja, uganda",
+        "contact":"+256700359708",
+        "url":"https://bmw.com",
+        "image":"Motorized_Munich.jpg",
+        "membership level":"1"
+
+    }
+]

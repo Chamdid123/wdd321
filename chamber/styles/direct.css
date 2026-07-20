@@ -1,7 +1,7 @@
 /******************** header ********************/
 header {
     display: grid;
-    grid-template-columns: 22px auto 44px;
+    grid-template-columns: 25px auto 44px;
     padding: 5px 0 10px;
     align-items: end;
     column-gap: 8px;
@@ -14,8 +14,7 @@ header img{
 
 }
 header span{
-    text-align: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .chamdid{
     background: none;
@@ -30,4 +29,103 @@ header span{
 
 .chamdid.show::before{
     content: "\00D7";
+}
+
+/******************** body ********************/
+.menu{
+    text-align: center;
+    padding: 20px;
+}
+
+/******************** navigation ********************/
+.navi{
+    display: none;
+
+}
+.navi.show{
+    display: block;
+}
+.navi ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navi a{
+    display: block;
+    padding: .8rem 10px;
+    color: #3D405B;
+    text-decoration: none;
+    border-bottom: solid 1px #ddd;
+    text-align: center;
+
+}
+.navi li.current{
+    background-color: #ddd;
+}
+.navi a:hover{
+    background: #999cb5;
+}
+
+/******************** section ********************/
+.members img{
+    width: 100%;
+
+}
+.members section{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3D405B;
+    color: #ccc;
+    border-radius: 15px;
+
+
+}
+
+.top{
+    text-align: center;
+    border-bottom: 1px solid;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: 150px 100px;
+    margin: 8px auto;
+    gap: 20px;
+    align-items: center;
+}
+.info{
+    flex: 1;
+}
+/******************** footer ********************/
+
+
+footer{
+    background-color: #eee;
+    padding: 1rem 10px;
+    text-align: center;
+}
+.media{
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+
+}
+
+.media a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: #3D405B solid 1px;
+    border-radius: 10px;
+
+}
+.media img{
+    width: 22px;
+    height: 22px;
+}
+
+.media a:hover{
+    background-color: #ddd;
 }
