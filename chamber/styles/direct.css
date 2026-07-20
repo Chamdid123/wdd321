@@ -32,9 +32,16 @@ header span{
 }
 
 /******************** body ********************/
+body{
+    font-family: "Roboto", sans-serif;
+}
+
 .menu{
     text-align: center;
+    margin: 1rem auto;
     padding: 20px;
+    background-color: #999cb5;
+    border-radius: 10px;
 }
 
 /******************** navigation ********************/
@@ -66,13 +73,69 @@ header span{
     background: #999cb5;
 }
 
+/******************** buttons ********************/
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
+
+	section {
+		text-align: center;
+		& > * {
+			margin: 0.1rem;
+		}
+	}
+
+	img {
+		border: 1px solid #fff;
+		box-shadow: 0 0 1rem #555;
+	}
+}
+
+h3 {
+	font-size: 1.2rem;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+
+	section {
+		display: grid;
+		grid-template-columns: 2fr 1fr 1fr;
+		margin: 0;
+		padding: 0.25rem;
+
+		& > * {
+			margin: 0 1rem;
+		}
+
+		img {
+			display: none;
+		}
+
+		h3 {
+			font-size: 1rem;
+		}
+
+		&:nth-child(even) {
+			background-color: #bbb;
+		}
+	}
+}
+
 /******************** section ********************/
 .members img{
     width: 100%;
+    height: auto;
+    display: block;
 
 }
 .members section{
     border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 100%;
     padding: 10px;
     margin: 10px;
     background-color: #3D405B;
@@ -88,9 +151,9 @@ header span{
 }
 .bottom{
     display: grid;
-    grid-template-columns: 150px 100px;
+    grid-template-columns: 1fr 1fr;
     margin: 8px auto;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
 }
 .info{

@@ -1,3 +1,17 @@
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector(".members");
+
+gridbutton.addEventListener("click", () =>{
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
+listbutton.addEventListener("click", showList);
+
+function showList(){
+	display.classList.add("list");
+	display.classList.remove("grid");
+}
 
 const url = "data/members.json";
 
@@ -39,7 +53,6 @@ navbutton.addEventListener('click', () => {
     navbutton.classList.toggle('show');
     navlinks.classList.toggle('show');
 });
-
 
 getMembers();
 document.querySelector("#currentyear").textContent = new Date().getFullYear();
